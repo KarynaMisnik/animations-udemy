@@ -1,0 +1,16 @@
+button {
+  height: 90px;
+  width: 290px;
+  font-size: 28px;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  background-color: #e599fa;
+  transition: background-color, 3000ms;
+  text-transform: uppercase;
+  transition-delay: 1s;
+}
+
+button:hover {
+  background-color: #6a1fa0;
+}
