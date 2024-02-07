@@ -6,11 +6,13 @@ button {
   border: none;
   border-radius: 8px;
   background-color: #e599fa;
-  transition: background-color, 3000ms;
+  transition: background-color, color, font-size, 3000ms;
   text-transform: uppercase;
-  transition-delay: 1s;
+  /*transition-delay: 1s;*/
 }
 
 button:hover {
   background-color: #6a1fa0;
+  color: white;
+  font-size: 35px;
 }
