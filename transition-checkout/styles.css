@@ -1,3 +1,4 @@
+/* Background color */
 .flower-head {
   display: flex;
   justify-content: center;
@@ -46,4 +47,25 @@
 
 .three:hover {
   background-color: #940c43;
+}
+
+/*  Opacity */
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: black;
+  border-radius: 50%;
+  transition: all, 1000ms;
+}
+
+.circle:hover {
+  opacity: 0.1;
 }
