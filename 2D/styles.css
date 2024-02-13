@@ -53,3 +53,20 @@
 .eternity:hover {
   transform: rotate(90deg);
 }
+
+.rectangle-rotate {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  background: red;
+  transition: transform, 1s;
+  transform-origin: top left;
+}
+.greetings {
+  position: absolute;
+  z-index: -1;
+}
+
+.rectangle-rotate:hover {
+  transform: rotate(90deg);
+}
