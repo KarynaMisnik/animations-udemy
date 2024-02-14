@@ -26,3 +26,11 @@
 .rectangle-far:hover {
   transform: translateZ(-300px);
 }
+
+.rectangle-rotate {
+  background: darkcyan;
+}
+
+.rectangle-rotate:hover {
+  transform: rotateX(60deg);
+}
