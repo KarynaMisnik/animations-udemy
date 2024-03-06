@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  padding: 40px 80px;
+  color: rgb(29, 28, 28);
+  border: 3px solid rgb(29, 28, 28);
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: sans-serif;
+  position: relative;
+  transition: all 0.5s;
+  overflow: hidden;
+}
