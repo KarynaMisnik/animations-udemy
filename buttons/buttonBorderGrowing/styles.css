@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: verdana;
+  background-color: #111111;
+}
+
+a {
+  text-decoration: none;
+  height: 60px;
+  width: 200px;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: #db6606;
+  position: relative;
+  color: #f5f2f2;
+  font-size: 25px;
+}
