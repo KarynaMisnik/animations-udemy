@@ -8,7 +8,7 @@ body {
 }
 
 button {
-  background-color: red;
+  background: transparent;
   border: none;
   position: relative;
   width: 400px;
