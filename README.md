@@ -1,4 +1,4 @@
-## Creative advanced CSS & Javascript Animations
+## 🎨 Creative advanced CSS & Javascript Animations
 
 🧠 150+ projects
 
