@@ -24,6 +24,11 @@ ul li a {
   transition: all 0.5s;
 }
 
+a:hover {
+  background-color: #b61111;
+  color: white;
+}
+
 a::before {
   content: "";
   position: absolute;
@@ -31,7 +36,7 @@ a::before {
   left: 12px;
   width: 12px;
   height: 12px;
-  border: 3px solid rgb(182, 17, 17);
+  border: 3px solid #b61111;
   border-width: 0 0 3px 3px;
   opacity: 0;
   transition: all 0.5s;
