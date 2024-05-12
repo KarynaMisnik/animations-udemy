@@ -19,7 +19,6 @@ ul {
 
 ul li {
   list-style: none;
-  color: white;
   position: relative;
   margin: 5px;
 }
@@ -42,4 +41,39 @@ ul li a span {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.5s;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  transition-delay: 0.5s;
+}
+
+a:hover span:nth-child(1) {
+  transform: translateY(-100%);
+  transition-delay: 0;
+}
+
+a:hover span:nth-child(2) {
+  transform: translateY(-100%);
+  transition-delay: 0;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #11e79580;
+  transition: 0.5s;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.5s;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+  transform-origin: right;
+  transition-delay: 0.5s;
 }
