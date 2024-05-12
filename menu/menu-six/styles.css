@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #292928;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+ul li {
+  list-style: none;
+  color: white;
+  position: relative;
+  margin: 5px;
+}
+
+ul li a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  height: 40px;
+  padding: 5px 10px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
+ul li a span {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
