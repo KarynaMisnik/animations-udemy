@@ -24,7 +24,6 @@ section h2 {
   line-height: 1em;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-attachment: fixed;
 }
 
 section:nth-child(1) h2 {
